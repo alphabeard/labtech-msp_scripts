@@ -7,7 +7,7 @@ It is becoming more common for clients to be utilizing cloud/web apps.  As such 
 ## LabTech Script Setup
 1. Create a new script.
 2. Function 1: File Write Text
-    1. Text File: Location on the target PC you want the file created on ***Example: c:\Temp\webshortcuts.url***
+    1. Text File: Location on the target PC you want the file created on ***Example: c:\Temp\Create_Desktop_Shortcuts.ps1***
     2. Data: Copy the PowerShell script into this field.
 3. Function 2: LabTech Command
     1. Command: 2
