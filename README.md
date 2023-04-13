@@ -4,7 +4,7 @@ Repo is going to mostly be Labtech/ConnectWise Automate and PowerShell Scripts t
 I will have README.md files in each folder to provide details of what is being done as well as info regarding LabTech utilization.
 
 ## LabTech PowerShell Script Implementation
-Due to not having much luck with the LabTech PowerShell function I use LabTech to write the PowerShell script locally, call it, then delete it when completed.
+Due to not having much luck with the LabTech PowerShell function I primarily only use LabTech to write the PowerShell script locally, call it, then delete it when completed.
 
 This is normally accomplished by a 3 function LabTech Script.
 
@@ -20,3 +20,7 @@ This is normally accomplished by a 3 function LabTech Script.
     5. ID Type: Location
 4. Function 3: Delete File as Admin
     1. File Path: Location specified in Step 2.1
+
+You could opt to place your PowerShell scripts on your LT Server, you would only need to change the first function to download the file.
+
+I have not gone that route due to our MSP having heavily restricted access to the LT Server, preventing me from adding files to the LT Share.
