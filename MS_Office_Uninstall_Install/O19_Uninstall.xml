@@ -1,0 +1,4 @@
+<Configuration>
+	<Remove All="TRUE"/>
+	<Display Level="None" />
+</Configuration>

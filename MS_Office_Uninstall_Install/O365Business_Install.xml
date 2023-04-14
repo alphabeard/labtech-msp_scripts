@@ -1,0 +1,14 @@
+<Configuration>
+
+  <Add OfficeClientEdition="64" Channel="SemiAnnual">
+    <Product ID="O365BusinessRetail">
+      <Language ID="en-us" />
+    </Product>
+  </Add>
+  <RemoveMSI />
+
+  <Updates Enabled="TRUE" Channel="SemiAnnual" />
+
+  <Display Level="Full" AcceptEULA="TRUE" />
+
+</Configuration>
